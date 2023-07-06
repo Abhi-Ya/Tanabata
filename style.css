@@ -37,12 +37,12 @@ body {
 }
 
 .space{
-    margin-bottom: 4500px;
+    margin-bottom: 2300px;
     text-align: center;
 }
 .btn{
         margin-top: 1900px;
-        font-size: 2em;
+        font-size: 1em;
         height: 80px;
         width: 300px;
         border: 0;
@@ -58,7 +58,7 @@ body {
 
 .story_btn{
     margin-top: 1900px;
-    font-size: 2em;
+    font-size: 1em;
     height: 80px;
     border: 0;
     outline: none;
