@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=M+PLUS+Rounded+1c&family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 @font-face {
-    font-family: Nyashi;
-    src: url('https://pctkpp.github.io/tnbt2022/font/Nyashi.otf');
+    font-family: itim;
+    src: url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+    /*src: url('https://pctkpp.github.io/tnbt2022/fontNyashi.otf');*/
 }
 
 @font-face {
@@ -43,8 +44,8 @@ body {
 .btn{
         margin-top: 1200px;
         font-size: 1em;
-        height: 80px;
-        width: 300px;
+        height: 50px;
+        width: 250px;
         border: 0;
         outline: none;
         border-radius: 20px;
@@ -59,7 +60,8 @@ body {
 .story_btn{
     margin-top: 1200px;
     font-size: 1em;
-    height: 80px;
+    height: 50px;
+    width: 250px;
     border: 0;
     outline: none;
     border-radius: 20px;
@@ -68,7 +70,6 @@ body {
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
     z-index: 100;
 }
 
@@ -205,7 +206,7 @@ input[type=text] {
 }
 .popupstory {
     width: auto;
-    height: 500  px;
+    height: 300  px;
     background-color: #f5f4f0;
     border-radius: 6px;
     top: 50%;
@@ -327,14 +328,14 @@ input[type=text] {
 #gallerywrapper #gallery div p {
     padding: 5px 0;
     margin: 0;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 18px;
 }
 
 #gallery .previous {
     display: inline;
     float: left;
-    margin-left: 80px;
+    margin-left: 10px;
     text-decoration: none;
     size: 2;
 }
@@ -342,6 +343,17 @@ input[type=text] {
 #gallery .next {
     display: inline;
     float: right;
-    margin-right: 80px;
+    margin-right: 10px;
     text-decoration: none;
+}
+
+h4{
+    color:#3f3152;
+    font-family: itim;
+    text-align: center;
+}
+
+a{
+    color:white;
+    font-family: itim;
 }
