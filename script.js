@@ -11,14 +11,9 @@ function openPopup(){
 }
 
 function closePopup(){
+    ovl.classList.remove("ovl");
     popup.classList.remove("open-popup");
     optionTazaku.classList.remove("open-option");
-    ovl.classList.remove("ovl");
-    AlertFunction();
-}
-
-function opencard(){
-        AlertFunction();
 }
 
  let cardColor = [
@@ -36,26 +31,6 @@ function color(z){
     var d = fontColor[c];
     document.getElementById("popup").style.backgroundColor = b;
 }
-
-function AlertFunction(){
-    //alert("Your wish had submitted. Good luck!")
-}
-
-// database part using firebase
-/* const firebaseConfig = {
-    apiKey: "AIzaSyDOPSRGmIaNbhq1Xwjq8fWWiVfiXEJ2fnc",
-    authDomain: "tanabata2023kvis.firebaseapp.com",
-    databaseURL: "https://tanabata2023kvis-default-rtdb.firebaseio.com",
-    projectId: "tanabata2023kvis",
-    storageBucket: "tanabata2023kvis.appspot.com",
-    messagingSenderId: "68723064942",
-    appId: "1:68723064942:web:3f40a29fc9da32f779667f",
-    measurementId: "G-CW1BDFHDDW"
-  };
-
-  // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-let db = firebase.firestore();*/
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -91,7 +66,7 @@ function openPopup_story() {
 
 function closePopup_story() {
   popupstory.classList.remove("open-popup_story");
-    ovl.classList.add("ovl");
+    ovl.classList.remove("ovl");
   close(returnValue)
 }
 
