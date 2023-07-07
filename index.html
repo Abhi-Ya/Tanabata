@@ -33,7 +33,7 @@
                 form.addEventListener('submit', e => {
                     e.preventDefault()
                     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                        .then(response => alert("ํYour wish had summited. Good luck!"))
+                        .then(response => alert("Your wish has been submitted. Good luck!"))
                         .catch(error => console.error('error!', error.message))
                 })
             </script>
