@@ -338,6 +338,8 @@ input[type=text] {
     margin-left: 10px;
     text-decoration: none;
     size: 2;
+    padding: 10px;
+    background-color: black;
 }
 
 #gallery .next {
@@ -345,6 +347,8 @@ input[type=text] {
     float: right;
     margin-right: 10px;
     text-decoration: none;
+    padding: 10px;
+    background-color: black;
 }
 
 h4{
