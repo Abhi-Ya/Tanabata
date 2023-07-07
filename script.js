@@ -38,7 +38,7 @@ function color(z){
 }
 
 function AlertFunction(){
-    alert("Your wish had submitted. Good luck!")
+    //alert("Your wish had submitted. Good luck!")
 }
 
 // database part using firebase
@@ -91,7 +91,7 @@ function openPopup_story() {
 
 function closePopup_story() {
   popupstory.classList.remove("open-popup_story");
-    ovl.classList.remove("ovl");
+    ovl.classList.add("ovl");
   close(returnValue)
 }
 
