@@ -66,7 +66,6 @@ function openPopup_story() {
 
 function closePopup_story() {
   popupstory.classList.remove("open-popup_story");
-    ovl.classList.remove("ovl");
+  ovl.classList.remove("ovl");
   close(returnValue)
 }
-
