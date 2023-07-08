@@ -361,3 +361,19 @@ a{
     color:white;
     font-family: itim;
 }
+
+.SeeOther a{
+    background-color:#fbe1a4;
+    color:#000;
+    bottom: 0%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    size: 2em;
+    z-index: 300;
+    position: absolute;
+    left: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+}
