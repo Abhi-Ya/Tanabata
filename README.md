@@ -4,9 +4,9 @@ This GitHub is for the KVIS Tanabata website 2023 (7 July).
 
 Note for other developers:
 
-This website uses HTML, CSS, and Java as the main structure.
-Google Sheets is the database (which is kinda sad). Note that Firebase would be more appreciated next time :)
-In the storytelling section, we didn't use the "viewport meta tag" or something that "should" be used, so the popup might be too big when users open it with their smartphones (but the proportion works on iPads and laptops, tho).
+- This website uses HTML, CSS, and Java as the main structure.
+- Google Sheets is the database (which is kinda sad). Note that Firebase would be more appreciated next time :)
+- In the storytelling section, we didn't use the "viewport meta tag" or something that "should" be used, so the popup might be too big when users open it with their smartphones (but the proportion works on iPads and laptops, tho).
 
 ----------
 
