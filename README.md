@@ -12,8 +12,8 @@ Note for other developers:
 
 *** Previous Tanabata website from seniors ***
 
-**
-2020**
+
+**2020**
 main web: https://itzmeowww.github.io/tanabata2020/
 github shared: https://github.com/itzmeowww/tanabata2020
 
