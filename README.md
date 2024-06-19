@@ -25,4 +25,4 @@ github shared: https://github.com/pctkpp/tnbt2022
 
 2023
 main web: https://abhi-ya.github.io/Tanabata/
-github shared: 
+github shared: https://github.com/Abhi-Ya/Tanabata
